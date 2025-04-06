@@ -1,0 +1,102 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+
+# Gradle files
+.gradle/
+build/
+.externalNativeBuild/
+.cxx/
+*.log
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Android Studio
+*.iml
+.idea/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/caches
+.idea/modules.xml
+.idea/navEditor.xml
+.idea/misc.xml
+.idea/deploymentTargetDropDown.xml
+.DS_Store
+captures/
+.navigation/
+.settings/
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Android Profiling
+*.hprof
+
+# Crashlytics plugin
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Kotlin-specific
+.kotlin/
+
+# Lint
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+
+# External native build folder
+.externalNativeBuild
+.cxx/
+
+# Version control
+vcs.xml
+
+# Gradle Wrapper
+!gradle/wrapper/gradle-wrapper.jar
+
+# NDK
+obj/
+.externalNativeBuild
+.cxx
+
+# Proguard
+proguard/
+
+# Freeline
+freeline.py
+freeline/
+freeline_project_description.json
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# Signing configs
+signing.properties

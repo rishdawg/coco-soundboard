@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.soundboard.databinding.ActivityMainBinding
 import com.example.soundboard.utils.HapticFeedbackHelper
+import com.example.soundboard.utils.GridSpacingItemDecoration
 
 /**
  * Main activity for the sound board application
@@ -18,7 +19,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var hapticFeedbackHelper: HapticFeedbackHelper
     
     // Configuration settings (could be moved to preferences)
-    private val gridColumns = 4
+    private val gridColumns = 3
     private val enableHapticFeedback = true
     
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -36,6 +37,9 @@ class MainActivity : AppCompatActivity() {
         binding.recyclerViewSoundBoard.apply {
             layoutManager = GridLayoutManager(this@MainActivity, gridColumns)
             setHasFixedSize(true)
+            addItemDecoration(GridSpacingItemDecoration(gridColumns, 8, true))
+            clipToPadding = false
+            setPadding(16, 16, 16, 16)
         }
     }
     

@@ -6,8 +6,9 @@
     android:id="@+id/buttonSound"
     style="@style/SoundButtonStyle"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="4dp"
     android:contentDescription="Sound button"
     app:rippleColor="@color/white"
     tools:backgroundTint="@color/sound_button_1"
-    tools:text="Sound 1" /> 
+    tools:text="Sound 1" />
